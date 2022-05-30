@@ -1,8 +1,10 @@
 #img-bg{
-    background-image: url("https://i.imgur.com/d5bMdDJ.jpg");
+    background-image: url("https://s2.glbimg.com/6xL7QPe9YMSm8N-aonWJQFXifH0=/e.glbimg.com/og/ed/f/original/2018/10/29/dna-3539309_1920.jpg");
 
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter:grayscale(100%);
+    
 }
