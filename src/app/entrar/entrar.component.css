@@ -1,10 +1,11 @@
 #img-bg{
-    background-image: url("https://s2.glbimg.com/6xL7QPe9YMSm8N-aonWJQFXifH0=/e.glbimg.com/og/ed/f/original/2018/10/29/dna-3539309_1920.jpg");
+    background-image: url("https://as2.ftcdn.net/v2/jpg/03/42/53/79/1000_F_342537974_z9eTRqXuqbDFUYxKMODkNYt4gD3S5eru.jpg");
 
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter:grayscale(100%);
+    filter: grayscale(100%);
+    }
+
     
-}
