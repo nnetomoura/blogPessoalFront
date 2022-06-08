@@ -12,7 +12,7 @@ import { AuthService } from "../service/auth.service";
 })
 export class EntrarComponent implements OnInit {
 
-  usuarioLogin:UsuarioLogin = new UsuarioLogin()
+  usuarioLogin:UsuarioLogin = new UsuarioLogin
   
   constructor(
     private auth: AuthService,
@@ -30,12 +30,6 @@ export class EntrarComponent implements OnInit {
         environment.nome = this.usuarioLogin.nome
         environment.foto = this.usuarioLogin.foto
         environment.id = this.usuarioLogin.id
-
-        /*console.log(environment.token)
-        console.log(environment.nome)
-        console.log(environment.foto)
-        console.log(environment.id)*/ //permite visualizar as informações do usuário no console do navegador
-
         this.router.navigate(['/inicio'])
       },
       error: erro => {
