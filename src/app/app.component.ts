@@ -8,7 +8,9 @@ import { AuthService } from './service/auth.service';
 })
 export class AppComponent {
   
+  produto: Produ
   constructor(
     public auth: AuthService
     ) {}
 }
+
