@@ -35,7 +35,21 @@
         
         <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-#todasPostagens-tab">
 
-          
+          <div class="card-columns">
+
+            <div class="card text-center" *ngFor="let item of listaPostagens">
+              <div class="card-body">
+                <h5 class="card-title">{{item.titulo}}</h5>
+                <p class="card-text">{{item.texto}}</p>
+                <p class="card-text"><small class="text-muted">{{item.data}}</small></p>
+
+                <p class="card-text"><small class="text-muted">Por: {{item.usuario.nome}}</small></p>
+              </div>
+
+            
+            </div>
+
+          </div>
 
 
         </div>
